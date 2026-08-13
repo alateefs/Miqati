@@ -8,7 +8,7 @@ import dagger.hilt.android.HiltAndroidApp
  * HiltAndroidApp enables Hilt dependency injection throughout the app.
  */
 @HiltAndroidApp
-class MiqatiApplication : Application() {
+class MiqatiApp : Application() {
     override fun onCreate() {
         super.onCreate()
         // No analytics, tracking, or initialization of external services
