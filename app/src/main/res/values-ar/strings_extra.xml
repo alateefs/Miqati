@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Notification Channels -->
+    <string name="notification_channel_adhan">إشعارات الأذان</string>
+    <string name="notification_channel_adhan_description">إشعارات لأوقات الصلاة مع صوت الأذان</string>
+    <string name="notification_channel_reminder">تذكيرات الصلاة</string>
+    <string name="notification_channel_reminder_description">إشعارات تذكيرية قبل أوقات الصلاة</string>
+
+    <!-- Notification Content -->
+    <string name="notification_prayer_time">وقت صلاة %s</string>
+    <string name="notification_prayer_now">حان وقت صلاة %s</string>
+    <string name="notification_prayer_upcoming">صلاة %s خلال %d دقائق</string>
+    <string name="notification_adhan_playing">تشغيل الأذان لصلاة %s</string>
+    <string name="notification_stop_adhan">إيقاف الأذان</string>
+
+    <!-- Location Permission -->
+    <string name="permission_location_rationale">مطلوب إذن الوصول إلى الموقع لحساب أوقات الصلاة بدقة لمنطقتك.</string>
+    <string name="permission_location_denied">تم رفض إذن الوصول إلى الموقع. يرجى تمكينه في الإعدادات للحصول على أوقات صلاة دقيقة.</string>
+    <string name="permission_location_permanently_denied">تم رفض إذن الوصول إلى الموقع بشكل دائم. يرجى تمكينه في إعدادات التطبيق.</string>
+
+    <!-- GPS Settings -->
+    <string name="gps_not_enabled">نظام تحديد المواقع غير مفعّل</string>
+    <string name="gps_enable_prompt">هل ترغب في تفعيل نظام تحديد المواقع للحصول على أوقات صلاة دقيقة؟</string>
+    <string name="gps_enable">تفعيل GPS</string>
+    <string name="gps_cancel">إلغاء</string>
+
+    <!-- General Errors -->
+    <string name="error_generic">حدث خطأ. يرجى المحاولة مرة أخرى.</string>
+    <string name="error_no_internet">لا يوجد اتصال بالإنترنت</string>
+    <string name="error_location_unavailable">تعذر الحصول على الموقع</string>
+    <string name="error_calculation_failed">فشل حساب أوقات الصلاة</string>
+    <string name="error_audio_playback">خطأ في تشغيل الصوت</string>
+
+    <!-- Loading States -->
+    <string name="loading">جاري التحميل…</string>
+    <string name="loading_prayer_times">جاري حساب أوقات الصلاة…</string>
+    <string name="loading_location">جاري الحصول على موقعك…</string>
+
+    <!-- Empty States -->
+    <string name="empty_no_prayers">لا توجد أوقات صلاة متاحة</string>
+    <string name="empty_no_location">الموقع غير محدد</string>
+    <string name="empty_set_location">يرجى تحديد موقعك لرؤية أوقات الصلاة</string>
+</resources>
