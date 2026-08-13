@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors - Emerald Theme -->
+    <color name="primary">#10B981</color>
+    <color name="primary_variant">#059669</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <!-- Secondary Colors - Gold Accent -->
+    <color name="secondary">#F59E0B</color>
+    <color name="secondary_variant">#D97706</color>
+    <color name="on_secondary">#FFFFFF</color>
+
+    <!-- Background Colors - Light Theme -->
+    <color name="background">#FAFAF9</color>
+    <color name="on_background">#1C1917</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_surface">#1C1917</color>
+
+    <!-- Error Colors -->
+    <color name="error">#EF4444</color>
+    <color name="on_error">#FFFFFF</color>
+
+    <!-- Additional Colors -->
+    <color name="outline">#A8A29E</color>
+    <color name="outline_variant">#D6D3D1</color>
+    <color name="inverse_surface">#1C1917</color>
+    <color name="inverse_on_surface">#FAFAF9</color>
+
+    <!-- Prayer Time Colors -->
+    <color name="prayer_fajr">#3B82F6</color>
+    <color name="prayer_sunrise">#F97316</color>
+    <color name="prayer_dhuhr">#10B981</color>
+    <color name="prayer_asr">#8B5CF6</color>
+    <color name="prayer_maghrib">#EC4899</color>
+    <color name="prayer_isha">#6366F1</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#10B981</color>
+    <color name="gradient_end">#059669</color>
+</resources>
