@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ميقاتي</string>
+    
+    <!-- Home Screen -->
+    <string name="next_prayer">الصلاة القادمة</string>
+    <string name="prayer_times">أوقات الصلاة</string>
+    <string name="fajr">الفجر</string>
+    <string name="sunrise">الشروق</string>
+    <string name="dhuhr">الظهر</string>
+    <string name="asr">العصر</string>
+    <string name="maghrib">المغرب</string>
+    <string name="isha">العشاء</string>
+    <string name="now">الآن</string>
+    
+    <!-- Islamic Tools -->
+    <string name="qibla_direction">اتجاه القبلة</string>
+    <string name="quran">القرآن الكريم</string>
+    <string name="azkar">الأذكار</string>
+    <string name="calendar">التقويم الهجري</string>
+    <string name="settings">الإعدادات</string>
+    <string name="adhan">الأذان</string>
+    
+    <!-- Qibla Screen -->
+    <string name="qibla_title">اتجاه القبلة</string>
+    <string name="point_device">وجّه جهازك نحو الكعبة</string>
+    <string name="degrees">درجة</string>
+    <string name="distance">المسافة</string>
+    <string name="km">كم</string>
+    
+    <!-- Settings -->
+    <string name="calculation_method">طريقة الحساب</string>
+    <string name="location_settings">إعدادات الموقع</string>
+    <string name="notification_settings">إعدادات الإشعارات</string>
+    <string name="appearance_settings">المظهر</string>
+    <string name="about_app">عن التطبيق</string>
+    <string name="auto_location">الموقع التلقائي (GPS)</string>
+    <string name="manual_location">موقع يدوي</string>
+    <string name="save">حفظ</string>
+    <string name="cancel">إلغاء</string>
+    
+    <!-- Adhan Settings -->
+    <string name="adhan_enabled">تشغيل الأذان</string>
+    <string name="volume">مستوى الصوت</string>
+    <string name="preview">معاينة</string>
+    <string name="stop">إيقاف</string>
+    
+    <!-- Notifications -->
+    <string name="notifications_enabled">تفعيل الإشعارات</string>
+    <string name="notify_before">قبل الصلاة بـ</string>
+    <string name="minutes">دقائق</string>
+    <string name="vibrate">اهتزاز</string>
+    <string name="sound">صوت</string>
+    
+    <!-- Common -->
+    <string name="loading">جار التحميل…</string>
+    <string name="error">حدث خطأ</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="close">إغلاق</string>
+    <string name="coming_soon">قريباً</string>
+    <string name="permission_required">الإذن مطلوب</string>
+    <string name="grant_permission">منح الإذن</string>
+    <string name="location_required">الموقع مطلوب لحساب أوقات الصلاة بدقة</string>
+</resources>

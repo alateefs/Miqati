@@ -2,32 +2,27 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Location permissions -->
+    <!-- Location Permissions -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
 
-    <!-- Alarm permissions for Android 12+ -->
+    <!-- Alarm & Notification Permissions -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
     <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
-    <!-- Notification permissions for Android 13+ -->
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-
-    <!-- Foreground service for Adhan playback -->
+    <!-- Foreground Service Permission -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
 
-    <!-- Boot receiver for alarm rescheduling -->
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-
-    <!-- Vibration for notifications -->
-    <uses-permission android:name="android.permission.VIBRATE" />
-
-    <!-- Wake lock for alarm triggering -->
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- Audio -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
 
     <application
-        android:name=".MiqatiApplication"
+        android:name=".MiqatiApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -36,7 +31,6 @@
         android:theme="@style/Theme.Miqati"
         tools:targetApi="34">
 
-        <!-- Main Activity -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -50,32 +44,29 @@
 
         <!-- Adhan Playback Service -->
         <service
-            android:name=".feature.adhan.data.service.AdhanPlaybackService"
+            android:name="com.abdlateef.miqati.feature.adhan.data.service.AdhanPlaybackService"
+            android:enabled="true"
             android:exported="false"
             android:foregroundServiceType="mediaPlayback" />
 
         <!-- Prayer Alarm Receiver -->
         <receiver
-            android:name=".feature.notifications.data.receiver.PrayerAlarmReceiver"
+            android:name="com.abdlateef.miqati.feature.notifications.data.receiver.PrayerAlarmReceiver"
             android:enabled="true"
             android:exported="false" />
 
-        <!-- Boot Receiver for alarm rescheduling -->
+        <!-- Boot Receiver -->
         <receiver
-            android:name=".feature.notifications.data.receiver.BootReceiver"
+            android:name="com.abdlateef.miqati.feature.notifications.data.receiver.BootReceiver"
             android:enabled="true"
-            android:exported="false">
+            android:exported="true"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </receiver>
-
-        <!-- Exact Alarm Permission Activity (Android 12+) -->
-        <activity
-            android:name=".feature.notifications.presentation.ExactAlarmPermissionActivity"
-            android:exported="false"
-            android:theme="@style/Theme.Miqati.Transparent" />
 
     </application>
 
