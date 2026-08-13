@@ -255,7 +255,7 @@ app/
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/abdlateef/miqati.git
+git clone https://github.com/alateefs/miqati.git
 cd miqati
 ```
 
@@ -411,7 +411,7 @@ miqati/
 ├── app/
 │   ├── src/
 │   │   ├── main/
-│   │   │   ├── java/com/abdlateef/miqati/
+│   │   │   ├── java/com/alateefs/miqati/
 │   │   │   │   ├── MiqatiApplication.kt
 │   │   │   │   ├── MainActivity.kt
 │   │   │   │   ├── core/
@@ -481,11 +481,11 @@ miqati/
 │   │   │   │       └── adhan/
 │   │   │   └── AndroidManifest.xml
 │   │   ├── test/
-│   │   │   └── java/com/abdlateef/miqati/
+│   │   │   └── java/com/alateefs/miqati/
 │   │   │       ├── ExampleUnitTest.kt
 │   │   │       └── feature/
 │   │   └── androidTest/
-│   │       └── java/com/abdlateef/miqati/
+│   │       └── java/com/alateefs/miqati/
 │   │           └── ExampleInstrumentedTest.kt
 │   └── build.gradle.kts
 ├── gradle/
@@ -947,7 +947,7 @@ Special thanks to all contributors who have helped make Miqati better:
 
 ## Contact & Support
 
-- **GitHub**: [@abdlateef](https://github.com/abdlateef)
+- **GitHub**: [@alateefs](https://github.com/alateefs)
 - **Email**: [your.email@example.com](mailto:your.email@example.com)
 - **Website**: [miqati.app](https://miqati.app) (planned)
 
