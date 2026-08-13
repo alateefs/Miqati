@@ -948,7 +948,7 @@ Special thanks to all contributors who have helped make Miqati better:
 ## Contact & Support
 
 - **GitHub**: [@alateefs](https://github.com/alateefs)
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
+- **Email**: [sanossee@gmail.com](mailto:sanossee@gmail.com)
 - **Website**: [miqati.app](https://miqati.app) (planned)
 
 ### Support the Project
