@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background -->
+    <path
+        android:fillColor="#0D9488"
+        android:pathData="M0,0h108v108H0z"/>
+    
+    <!-- Mosque Dome -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,30 C40,30 30,42 30,55 L30,75 L78,75 L78,55 C78,42 68,30 54,30 z"/>
+    
+    <!-- Dome Top -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M54,25 C45,25 38,30 35,38 L73,38 C70,30 63,25 54,25 z"/>
+    
+    <!-- Minaret Left -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M25,45 L25,75 L32,75 L32,45 Z"/>
+    
+    <!-- Minaret Right -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M76,45 L76,75 L83,75 L83,45 Z"/>
+    
+    <!-- Crescent Moon -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M54,15 C50,15 47,18 47,22 C47,20 49,18 52,18 C55,18 57,20 57,22 C57,18 54,15 54,15 z"/>
+    
+    <!-- Base -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M30,75 L78,75 L78,80 L30,80 Z"/>
+</vector>
