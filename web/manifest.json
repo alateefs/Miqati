@@ -1,0 +1,10 @@
+{
+    "name": "ميقاتي | Miqati",
+    "short_name": "ميقاتي",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#061411",
+    "theme_color": "#10B981",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false
+}

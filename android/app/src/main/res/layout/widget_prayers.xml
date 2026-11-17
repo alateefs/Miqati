@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_prayers_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_miqati_logo" />
+        <TextView
+            android:id="@+id/wp_city"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="ميقاتي • الرياض"
+            android:textColor="#FBBF24"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/wp_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="القادمة: الظهر"
+            android:textColor="#10B981"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+        <TextView android:id="@+id/wp_fajr" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="الفجر\n04:47" android:textColor="#F8FAFC" android:textSize="11sp" />
+        <TextView android:id="@+id/wp_dhuhr" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="الظهر\n11:38" android:textColor="#F8FAFC" android:textSize="11sp" />
+        <TextView android:id="@+id/wp_asr" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="العصر\n02:46" android:textColor="#F8FAFC" android:textSize="11sp" />
+        <TextView android:id="@+id/wp_maghrib" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="المغرب\n05:08" android:textColor="#F8FAFC" android:textSize="11sp" />
+        <TextView android:id="@+id/wp_isha" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="العشاء\n06:38" android:textColor="#F8FAFC" android:textSize="11sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,30 @@
+name: miqati
+description: "ميقاتي (Miqati) - Professional Prayer Times, Connected Mushaf Quran, Automatic Qibla & Background Adhan App."
+publish_to: 'none'
+version: 5.0.0+5
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  http: ^1.2.0
+  crypto: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo/app_logo.png
+    - assets/audio/adhan_main.mp3
+    - assets/audio/adhan_fajr.mp3
+    - assets/audio/adhan_makkah.mp3
+    - assets/audio/adhan_madinah.mp3
+    - assets/audio/takbir.mp3
